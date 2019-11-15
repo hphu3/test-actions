@@ -7,3 +7,6 @@ jobs:
     steps:
     - name: Label test
       uses: hphu3/label-pr@master
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+ 
