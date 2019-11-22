@@ -9,4 +9,6 @@ jobs:
       uses: hphu3/label-pr@master
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
+        approved-label: "LG"
+        changes-requested-label: "Reviewed"
 
