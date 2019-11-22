@@ -11,4 +11,6 @@ jobs:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         approved-label: "LG"
         changes-requested-label: "Reviewed"
+        review-label: "review"
+        re-review-label: "re-review"
 
