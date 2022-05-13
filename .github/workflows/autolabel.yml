@@ -1,3 +1,4 @@
+name: autolabeler
 on: [pull_request_review]
 
 jobs:

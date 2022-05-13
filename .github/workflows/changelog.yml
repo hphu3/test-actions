@@ -1,7 +1,5 @@
-name: 'Release Changelog'
-# on:
-#   schedule:
-#       - cron: "* /5 * * * *"
+name: generate changelog
+on: workflow_dispatch
 
 jobs:
   release:
